@@ -26,7 +26,7 @@
     </div>
 
     <ul id="nav-menu">
-      <li><a href="#home">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -36,10 +36,14 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  
+
 
   <!-- HERO -->
-  <section id="home" class="hero">
+<section id="home" class="hero">
+
+  <div class="hero-container">
+
+    <!-- LEFT CONTENT -->
     <div class="hero-content">
       <h1>Hello, I'm <span>Alafiya N</span></h1>
       <p class="role">Java & Full Stack Web Developer</p>
@@ -48,19 +52,29 @@
         <a href="resume.pdf" download class="btn primary">
           <i class="fa-solid fa-file-arrow-down"></i> Resume
         </a>
+
         <a href="https://github.com/Alafiya766" target="_blank" class="btn github">
           <i class="fab fa-github"></i> GitHub
         </a>
+
         <a href="https://www.linkedin.com/in/alafiya-n-a02604292" target="_blank" class="btn linkedin">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
-        <a href="https://leetcode.com/u/Alafiya-N" target="_blank" class="btn leetcode">
-          <i class="fa-solid fa-code"></i>Leetcode
-        </a>
 
+        <a href="https://leetcode.com/u/Alafiya-N" target="_blank" class="btn leetcode">
+          <i class="fa-solid fa-code"></i> Leetcode
+        </a>
       </div>
     </div>
-  </section>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-image">
+      <img src="Professional image.jpg" alt="Alafiya Profile">
+    </div>
+
+  </div>
+
+</section>
 
   <!-- ABOUT -->
   <section id="about" class="section scroll">
@@ -69,11 +83,12 @@
       I am eager to begin my career in a role where I can keep learning, take on real-world challenges and grow as a
       developer.
       Passionate about Java and web development, and contribute to innovative projects.
+      Strong problem solving skills with a keen interest in building efficient and scalable applications.
     </p>
   </section>
 
   <!-- EDUCATION -->
-  <section id="education" class="section alt scroll">
+  <section id="education" class="section scroll">
     <h2>Education</h2>
 
     <div class="cards">
@@ -81,7 +96,7 @@
         <h3>B.E – Computer Science</h3>
         <p class="date">June 2027</p>
         <p>K S Rangasamy College of Technology, Tiruchengode</p>
-        <p><strong>CGPA:</strong> 9.6 / 10</p>
+        <p><strong>CGPA:</strong> 9.4 / 10</p>
       </div>
 
       <div class="card highlight scroll">
@@ -101,7 +116,7 @@
       <div class="skill-card scroll">
         <i class="fa-solid fa-code"></i>
         <h4>Programming</h4>
-        <p>Java, Python</p>
+        <p>Java, C, Python</p>
       </div>
 
       <div class="skill-card scroll">
@@ -119,7 +134,7 @@
       <div class="skill-card scroll">
         <i class="fa-solid fa-database"></i>
         <h4>Databases</h4>
-        <p>SQL, MongoDB</p>
+        <p>MySQL, MongoDB</p>
       </div>
     </div>
   </section>
@@ -132,7 +147,7 @@
       <div class="project-content">
         <h3>Event Connect Platform</h3>
         <p>
-          Developed a responsive event connect platform featuring event registration,
+          Developed a fully responsive event connect platform featuring event registration,
           organizer dashboards, user dashboard, payment integration and email notifications.
           Ensured a dynamic and user-friendly interface with seamless interactions.
         </p>
@@ -140,7 +155,7 @@
 
       <div class="project-footer">
         <p class="tech">HTML • CSS • JS • Node • Express • MySQL</p>
-        <a href="https://github.com/Alafiya766/Event-Connect-Platform" target="_blank">
+        <a href="https://github.com/Alafiya766/Event_Connect_Platform" target="_blank">
           <i class="fab fa-github"></i> View Code
         </a>
       </div>
@@ -148,7 +163,7 @@
 
     <div class="card highlight project-card scroll">
       <div class="project-content">
-        <h3>Interactive Fashion E-commerce Website</h3>
+        <h3>Digital Style Store</h3>
         <p>
           Developed a fully responsive fashion e-commerce website featuring a modern layout
           with sections for product listings, user navigation, and shopping functionality.
@@ -187,6 +202,8 @@
     <h2>Internships</h2>
 
     <div class="cards">
+
+      <!-- Infosys Internship -->
       <div class="card scroll">
         <h3>Infosys Springboard – Coimbatore</h3>
         <p class="date">Dec 2024 – Mar 2025</p>
@@ -194,13 +211,26 @@
           <li>Expert-led sessions and industry exposure</li>
           <li>Team-based learning activities</li>
         </ul>
+
+        <a href="certificates/Infosys.pdf" target="_blank" class="btn-cert">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+        </a>
       </div>
 
+      <!-- AICTE Internship -->
       <div class="card scroll">
         <h3>AI & Data Analytics Virtual Internship</h3>
         <p class="date">AICTE – Edunet | Aug 25 – Sep 25</p>
-        <p>Focused on AI, Data Analytics and Green Skills.</p>
+        <ul>
+          <li>Focused on AI, Data Analytics and Green Skills.</li>
+          <li>Gained hands-on experience in data analysis.</li>
+        </ul>
+
+        <a href="certificates/AICTE.pdf" target="_blank" class="btn-cert">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+        </a>
       </div>
+
     </div>
   </section>
 
@@ -211,36 +241,46 @@
     <div class="cards">
       <div class="card highlight scroll">
         <h3>Oracle Cloud Infrastructure 2025 DevOps Professional</h3>
+        <a href="certificates/Oracle.pdf" target="_blank" class="btn-cert">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+        </a>
       </div>
       <div class="card highlight scroll">
-        <h3>Oracle Cloud Infrastructure 2025 AI Foundations Associate</h3>
+        <h3>Certified Java Basics in HackerRank</h3>
+        <a href="certificates/Java_basics.pdf" target="_blank" class="btn-cert">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+        </a>
       </div>
       <div class="card highlight scroll">
         <h3>Introduction to Industry 4.0 and IIoT</h3>
-        <p>NPTEL – Elite</p>
+        <a href="certificates/IIOT.pdf" target="_blank" class="btn-cert">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+        </a>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-<section id="contact" class="section contact scroll">
-  <center><h2>Get in Touch</h2></center>
-  <h2>Contact</h2>
-  <p>
-    <i class="fa-solid fa-envelope"></i>
-    <a href="mailto:alafiya04@gmail.com">alafiya04@gmail.com</a>
-  </p>
+  <section id="contact" class="section contact scroll">
+    <center>
+      <h2>Get in Touch</h2>
+    </center>
+    <h2>Contact</h2>
+    <p>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:alafiya04@gmail.com">alafiya04@gmail.com</a>
+    </p>
 
-  <p>
-    <i class="fa-solid fa-phone"></i>
-    <a href="tel:+918220463426">8220463426</a>
-  </p>
+    <p>
+      <i class="fa-solid fa-phone"></i>
+      <a href="tel:+918220463426">8220463426</a>
+    </p>
 
-  <p>
-    <i class="fa-solid fa-location-dot"></i>
-    Erode, Tamil Nadu
-  </p>
-</section>
+    <p>
+      <i class="fa-solid fa-location-dot"></i>
+      Erode, Tamil Nadu
+    </p>
+  </section>
 
 
   <!-- FOOTER -->
